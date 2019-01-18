@@ -9,6 +9,7 @@ Our project is trying to predict the daily stock price movement of S&T500 based 
 The prediction is not in terms of number, while the way we define price movements is either upward movement or downward. Namely, the predicted variable is a nominal variable with only two outcomes illustrated by the following table. The data on daily price would be downloaded from Yahoo Finance. Currently, we would adopt the latest data over a one-year time from, from March 2017 to March 2018.
 
 |Prediction(t)||
+| ------------- | ------------- |
 |Positive:|Price(t+1) – Price(t) > 0|
 |Negative:|Price(t+1) – Price(t) < 0|
 
