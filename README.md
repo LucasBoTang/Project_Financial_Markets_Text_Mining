@@ -19,6 +19,7 @@ For each record of each date, data for News would be collected from Reuters offi
 
 ## Data Processing
 
+|Method|Detail|
 | ------------- | ------------- |
 |Remove Numbers|Remove all numerical information including “ 1.2%, 233…”|
 |Remove common words|Frequent words like “I, we, us, and, but …” would be removed because these words do not provide useful information. In addition, words describing date, time such as “Sept, 14:23, afternoon…” would also be removed.|
@@ -30,8 +31,8 @@ For each record of each date, data for News would be collected from Reuters offi
 ## Model
 
 Prediction model includes:
-    - Naive Bayes
-    - K-Nearest Neighbors
-    - Random Forests
-    - Support Vector Machine
-    - Neural Network
+    -Naive Bayes
+    -K-Nearest Neighbors
+    -Random Forests
+    -Support Vector Machine
+    -Neural Network
