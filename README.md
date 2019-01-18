@@ -1,4 +1,4 @@
-# Project_Financial_Markets_Text_Mining
+# Financial Markets Text Mining
 
 The goal of this project it to analyze the text information related to financial markets and make prediction about the stock market movements on a daily basis.
 
