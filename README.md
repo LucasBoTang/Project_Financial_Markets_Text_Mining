@@ -19,11 +19,19 @@ For each record of each date, data for News would be collected from Reuters offi
 
 ## Data Processing
 
+| ------------- | ------------- |
 |Remove Numbers|Remove all numerical information including “ 1.2%, 233…”|
 |Remove common words|Frequent words like “I, we, us, and, but …” would be removed because these words do not provide useful information. In addition, words describing date, time such as “Sept, 14:23, afternoon…” would also be removed.|
 |Lower letter|All word would be transformed into lowercase|
 |Stemming word|E.g. “look, looking, looked, looks” would be seen as one word, “look”, because they offer same information.|
 |Remove Frequently-used word in both positive and negative category|Words appear more than many times whatever the responsive value are useless to make prediction, and thus are removed. For example, no matter either market goes up or down, words like” markets, wall street, finance” would still be mentioned a lot of times but have nothing to do with outcome. The definition of “Frequently-used” would be determined in trial-and-error manner.|
+|TF-IDF|Convert words frequency into TF-IDF|
 
 ## Model
 
+Prediction model includes:
+    - Naive Bayes
+    - K-Nearest Neighbors
+    - Random Forests
+    - Support Vector Machine
+    - Neural Network
